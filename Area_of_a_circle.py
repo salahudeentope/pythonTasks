@@ -15,6 +15,7 @@ def area_of_a_circle(radius=input('input the radius of the circle here in cm: ')
     except ValueError:
         return "The radius of the circle has to be a number not string"
     else:
+        # the "\u00b2" in the code below is to create a superscript for cm-square
         return f"Area of the circle with radius {radius}cm is {round(area, 2)}cm\u00b2"
 
 
