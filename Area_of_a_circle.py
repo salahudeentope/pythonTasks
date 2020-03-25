@@ -3,7 +3,7 @@ import math
 
 def area_of_a_circle(radius=input('input the radius of the circle here in cm: ')):
     """"
-    A python function to create a console programme to compute the area of a circle 
+    A python function to create a console program to compute the area of a circle 
     from user supplied input. The supplied input has a to a positive number and 
     cannot be a string.
     """""
